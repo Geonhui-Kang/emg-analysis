@@ -32,10 +32,6 @@ function [] = EMGAnalysis_KIOM()
     subplot(4, 2, 6); plot(erector_spinae_left); title("Left Erector spinae", 'FontSize', 10);
     subplot(4, 2, 7); plot(gluteus_maximus_right); title("Right Gluteus Maximus", 'FontSize', 10);
     subplot(4, 2, 8); plot(gluteus_maximus_left); title("Left Gluteus Maximus", 'FontSize', 10);
-    sgtitle(sgtitle_name);
-%% 
-% 3. Examples
-
-    
+    sgtitle(sgtitle_name); 
 %%
 end
