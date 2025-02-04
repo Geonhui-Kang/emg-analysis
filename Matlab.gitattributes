@@ -23,4 +23,5 @@
 *.mltbx         binary
 *.mlappinstall  binary
 *.mlpkginstall  binary
+*.mlx           binary
 *.mn            binary
